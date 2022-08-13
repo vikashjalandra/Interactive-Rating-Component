@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass';
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 30px;
+    padding:30px 30px ;
+    display: flex;
+    flex-direction: column;
+}
+
+#star{
+    background-color: hsl(213, 20%, 22%);
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgb(32, 31, 31);
+}
+
+h2{
+    margin-top: 30px;
+    color: white;
+}
+
+p{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+
+#p{
+    margin-top: 20px;
+    width: 300px;
+}
+
+
+
+#rate{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rate{
+    background-color: hsl(213, 20%, 22%);
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgb(32, 31, 31);
+    color: white;
+}
+
+button{
+    margin-top: 30PX;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    padding: 10px 0px;
+    border-radius: 20px;
+    border: 0px;
+}
+
+
+#change{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#change p{
+    text-align: center;
+}
+
+#para{
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 20%, 22%);
+    border-radius: 20px;
+    padding: 5px 15px;
+    box-shadow: 0px 0px 10px rgb(32, 31, 31);
+    margin-top: 30px;
+}
+
+#para2{
+    margin-top: 20px;
+    width: 300px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.rate:hover{
+    background-color: hsl(211, 10%, 44%);
+}
+
+#card2{
+    display: none;
+}
+
+@media screen and (max-width:475px) {
+    /* .card{
+        width: 250px;
+    } */
+    #p{
+        width: 250px;
+    }
+    #para2{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:320px){
+    /* .card{
+        width: 230px;
+    } */
+    #p{
+        width: 230px;
+    }
+    #para2{
+        width: 230px;
+    }
+}
